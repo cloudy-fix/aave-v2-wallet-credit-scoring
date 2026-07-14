@@ -1,0 +1,6 @@
+﻿flowchart LR
+    User["Aave wallet transaction JSON"] --> App["Feature engineering and scoring model"]
+    App --> Data["Wallet transactions and scoring weights"]
+    App --> Output["Wallet credit score CSV/report"]
+    Data --> Output
+
