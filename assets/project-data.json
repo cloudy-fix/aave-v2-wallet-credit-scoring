@@ -1,0 +1,92 @@
+﻿{
+    "accentTwo":  "#f59e0b",
+    "stack":  [
+                  "Python",
+                  "Aave V2",
+                  "Feature Engineering",
+                  "Credit Scoring",
+                  "Explainable Risk"
+              ],
+    "docs":  [
+                 {
+                     "label":  "Repository",
+                     "url":  "https://github.com/cloudy-fix/aave-v2-wallet-credit-scoring",
+                     "note":  "Source, commits, issues, and project files"
+                 },
+                 {
+                     "label":  "Architecture",
+                     "url":  "https://github.com/cloudy-fix/aave-v2-wallet-credit-scoring/blob/main/docs/ARCHITECTURE.md",
+                     "note":  "System design and responsibilities"
+                 },
+                 {
+                     "label":  "Operations",
+                     "url":  "https://github.com/cloudy-fix/aave-v2-wallet-credit-scoring/blob/main/docs/OPERATIONS.md",
+                     "note":  "Runbook and deployment notes"
+                 },
+                 {
+                     "label":  "Workflow Diagram",
+                     "url":  "https://github.com/cloudy-fix/aave-v2-wallet-credit-scoring/blob/main/docs/diagrams/workflow.mmd",
+                     "note":  "End-to-end process map"
+                 },
+                 {
+                     "label":  "Architecture Diagram",
+                     "url":  "https://github.com/cloudy-fix/aave-v2-wallet-credit-scoring/blob/main/docs/diagrams/architecture.mmd",
+                     "note":  "Component-level diagram"
+                 }
+             ],
+    "demoType":  "scoring",
+    "highlights":  [
+                       "Calculates wallet-level credit signals",
+                       "Shows utilization and repayment drivers",
+                       "Explains score outputs for reviewers"
+                   ],
+    "title":  "Aave V2 Wallet Credit Scoring",
+    "category":  "DeFi Risk Analytics",
+    "components":  [
+                       "Wallet data ingestion",
+                       "Protocol feature extraction",
+                       "Scoring rules",
+                       "Risk output",
+                       "Architecture docs"
+                   ],
+    "repo":  "aave-v2-wallet-credit-scoring",
+    "runtime":  "GitHub Pages runs the interactive scoring console. The repository contains the Python data-processing workflow for production deployment.",
+    "sample":  {
+                   "wallet":  "0x742d35Cc6634C0532925a3b844Bc454e4438f44e",
+                   "features":  [
+                                    "Repay behavior",
+                                    "Borrow utilization",
+                                    "Liquidation history",
+                                    "Wallet age",
+                                    "Protocol interactions"
+                                ],
+                   "model":  "Aave credit model",
+                   "scoreLabel":  "Aave V2 Credit Score",
+                   "maxScore":  1000
+               },
+    "accent":  "#0f766e",
+    "visibility":  "Public",
+    "mission":  "A live scoring surface for evaluating Aave V2 wallet behavior with explainable credit-risk style features.",
+    "metrics":  [
+                    {
+                        "label":  "Score Range",
+                        "detail":  "Credit-style wallet health",
+                        "value":  "0 to 1000"
+                    },
+                    {
+                        "label":  "Protocol",
+                        "detail":  "Borrow, repay, liquidity behavior",
+                        "value":  "Aave V2"
+                    },
+                    {
+                        "label":  "Output",
+                        "detail":  "Feature-level drivers",
+                        "value":  "Explainable"
+                    }
+                ],
+    "links":  {
+                  "pages":  "https://cloudy-fix.github.io/aave-v2-wallet-credit-scoring/",
+                  "portfolio":  "https://cloudy-fix.github.io/portfolio/projects.html",
+                  "repo":  "https://github.com/cloudy-fix/aave-v2-wallet-credit-scoring"
+              }
+}
